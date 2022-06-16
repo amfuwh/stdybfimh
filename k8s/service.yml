@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: jhdpbf16
+  name: gchdjyg
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "jhdpbf16"
+  - name: "gchdjyg"
     port: 8080
   selector:
-    app: jhdpbf16
+    app: gchdjyg
