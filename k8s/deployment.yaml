@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jhbfmzs
+  name: hbsa916
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: jhbfmzs
+      app: hbsa916
   template:
     metadata:
       labels:
-        app: jhbfmzs
+        app: hbsa916
     spec:
       containers:
-      - image: okteto.dev/jhbfmzs:latest
-        name: jhbfmzs
+      - image: okteto.dev/hbsa916:latest
+        name: hbsa916
         ports:
         - containerPort: 8080
         env:
