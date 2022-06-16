@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: xhjsansx
+  name: jhbfmzs
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "xhjsansx"
+  - name: "jhbfmzs"
     port: 8080
   selector:
-    app: xhjsansx
+    app: jhbfmzs
