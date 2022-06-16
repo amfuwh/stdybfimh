@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hbsa916
+  name: zycjtm38
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "hbsa916"
+  - name: "zycjtm38"
     port: 8080
   selector:
-    app: hbsa916
+    app: zycjtm38
