@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jhdpbf16
+  name: gchdjyg
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: jhdpbf16
+      app: gchdjyg
   template:
     metadata:
       labels:
-        app: jhdpbf16
+        app: gchdjyg
     spec:
       containers:
-      - image: okteto.dev/jhdpbf16:latest
-        name: jhdpbf16
+      - image: okteto.dev/gchdjyg:latest
+        name: gchdjyg
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "df4c31e9-839e-4ec9-b345-b213fd5beef3"
+          value: "31a9d4a0-46cb-42b1-91a6-03837f04de3c"
         - name: Vless_Path
           value: "/kmsdlw"
         - name: Vmess_UUID
-          value: "df4c31e9-839e-4ec9-b345-b213fd5beef3"
+          value: "31a9d4a0-46cb-42b1-91a6-03837f04de3c"
         - name: Vmess_Path
           value: "/xhdjzh"
         - name: Share_Path
