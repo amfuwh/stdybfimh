@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xhjsansx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: xhjsansx
+  template:
+    metadata:
+      labels:
+        app: xhjsansx
+    spec:
+      containers:
+      - image: okteto.dev/xhjsansx:latest
+        name: xhjsansx
+        ports:
+        - containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080"
+        - name: ProxySite
+          value: "mirror.umd.edu"
+        - name: Vless_UUID
+          value: "df4c31e9-839e-4ec9-b345-b213fd5beef3"
+        - name: Vless_Path
+          value: "/kmsdlw"
+        - name: Vmess_UUID
+          value: "df4c31e9-839e-4ec9-b345-b213fd5beef3"
+        - name: Vmess_Path
+          value: "/xhdjzh"
+        - name: Share_Path
+          value: "/gxsddl"
