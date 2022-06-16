@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hbsa916
+  name: zycjtm38
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hbsa916
+      app: zycjtm38
   template:
     metadata:
       labels:
-        app: hbsa916
+        app: zycjtm38
     spec:
       containers:
-      - image: okteto.dev/hbsa916:latest
-        name: hbsa916
+      - image: okteto.dev/zycjtm38:latest
+        name: zycjtm38
         ports:
         - containerPort: 8080
         env:
