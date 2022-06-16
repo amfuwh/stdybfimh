@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: zycjtm38
+  name: jhdpbf16
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: zycjtm38
+      app: jhdpbf16
   template:
     metadata:
       labels:
-        app: zycjtm38
+        app: jhdpbf16
     spec:
       containers:
-      - image: okteto.dev/zycjtm38:latest
-        name: zycjtm38
+      - image: okteto.dev/jhdpbf16:latest
+        name: jhdpbf16
         ports:
         - containerPort: 8080
         env:
