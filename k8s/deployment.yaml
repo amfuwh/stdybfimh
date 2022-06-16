@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: xhjsansx
+  name: jhbfmzs
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: xhjsansx
+      app: jhbfmzs
   template:
     metadata:
       labels:
-        app: xhjsansx
+        app: jhbfmzs
     spec:
       containers:
-      - image: okteto.dev/xhjsansx:latest
-        name: xhjsansx
+      - image: okteto.dev/jhbfmzs:latest
+        name: jhbfmzs
         ports:
         - containerPort: 8080
         env:
